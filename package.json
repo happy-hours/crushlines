@@ -1,0 +1,26 @@
+{
+  "name": "crushlines",
+  "version": "1.0.0",
+  "description": "Check out who's checking you out.",
+  "main": "lib/start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/globetown/crushlines.git"
+  },
+  "author": "heron2014, minaorangina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/globetown/crushlines/issues"
+  },
+  "homepage": "https://github.com/globetown/crushlines#readme",
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "hapi": "^12.1.0",
+    "hoek": "^3.0.4",
+    "inert": "^3.2.0",
+    "vision": "^4.0.1"
+  }
+}
