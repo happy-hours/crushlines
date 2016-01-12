@@ -4,7 +4,7 @@
   "description": "Check out who's checking you out.",
   "main": "lib/start.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node lib/start.js"
   },
   "repository": {
     "type": "git",
