@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/globetown/crushlines.svg?branch=master)](https://travis-ci.org/globetown/crushlines)
+[![codecov.io](https://codecov.io/github/globetown/crushlines/coverage.svg?branch=master)](https://codecov.io/github/globetown/crushlines?branch=master)
+[![Dependency Status](https://david-dm.org/globetown/crushlines.svg)](https://david-dm.org/globetown/crushlines)
+[![devDependency Status](https://david-dm.org/globetown/crushlines/dev-status.svg)](https://david-dm.org/globetown/crushlines#info=devDependencies)
+
 # crushlines
 
 # What?
