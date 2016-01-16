@@ -12,7 +12,7 @@ config.json
 ._*
 */._*
 */*/._*
-coverage.*
+coverage/
 */*~
 .emacs*
 test/fixtures/monitor_log
