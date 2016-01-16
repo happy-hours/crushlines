@@ -9,9 +9,11 @@
 
 2. Failing Travis build
     - No .travis.yml detected
+
 ![alt text](https://files.gitter.im/heron2014/Y56k/travis_error.png)
 
     - Unable to resolve tape
+
 ![alt text](https://files.gitter.im/heron2014/rsoG/tape_travis_issue.png)
 
 ### Solution
@@ -33,11 +35,12 @@ t.equal(server instanceof Hapi.Server, true);
 
 ## <a name="codecov"></a> Problem: **Setting up CodeCov**
 * "Permission denied"
-<img src="https://files.gitter.im/heron2014/IQWi/coverage_travis.png" width="550" style="display: block">
+
+![alt text](https://files.gitter.im/heron2014/IQWi/coverage_travis.png)
 
 ### Solution
 * Add `--user` flag to `.travis.yml`
 ```
 before_install:
     pip install --user codecov
-    ```
+```

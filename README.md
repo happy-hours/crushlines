@@ -6,7 +6,7 @@
 # crushlines
 
 # What?
-Check out who is checking you out 
+Check out who is checking you out
 
 # Why?
 Our initial reason for building this app is to escape from daily responsibilities into imaginary, fun world, purely for our own sanity.
@@ -30,7 +30,10 @@ We will use following technologies:
 
 (coming soon)
 
+# Lessons learnt
+We will track any lessons learnt [here](https://github.com/globetown/crushlines/blob/master/problems-solutions.md)
+
 Authors:
 @heron2014, @minaorangina
 
-If you have any suggestions please raise an issue here. 
+If you have any suggestions please raise an issue here.
