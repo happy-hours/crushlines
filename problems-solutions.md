@@ -3,6 +3,7 @@
 * [Setting up Travis](#travis)
 * [Testing Hapi](#hapi)
 * [Setting up CodeCov](#codecov)
+* [Serving our index page](#index)
 
 ## <a name="travis"><a> Problem: **Setting up Travis**
 1. How to get our repo into Travis
@@ -44,3 +45,14 @@ t.equal(server instanceof Hapi.Server, true);
 before_install:
     pip install --user codecov
 ```
+
+## <a name="index"><a> Problem: **Unable to serve our index.html**
+
+### Solution
+* Reference to `index.html` relative to the root of the project, **not** relative to your `server.js`
+
+#### Before
+![alt text](https://files.gitter.im/heron2014/cdLu/error-path.png)
+
+#### After
+https://github.com/globetown/crushlines/blob/3e740a10478cddd8a0768094cf64635459ec5d7d/lib/home.js#L9
