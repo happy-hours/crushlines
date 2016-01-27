@@ -12,21 +12,29 @@
     "type": "git",
     "url": "git+https://github.com/globetown/crushlines.git"
   },
-  "author": "heron2014, minaorangina",
+  "author": "@heron2014 @minaorangina",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/globetown/crushlines/issues"
   },
   "homepage": "https://github.com/globetown/crushlines#readme",
   "dependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-react": "^6.3.13",
     "handlebars": "^4.0.5",
     "hapi": "^12.1.0",
     "hoek": "^3.0.4",
     "inert": "^3.2.0",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
     "vision": "^4.0.1"
   },
   "devDependencies": {
+    "css-loader": "^0.23.1",
     "istanbul": "^0.4.2",
-    "tape": "^4.4.0"
+    "style-loader": "^0.13.0",
+    "tape": "^4.4.0",
+    "webpack": "^1.12.12"
   }
 }
