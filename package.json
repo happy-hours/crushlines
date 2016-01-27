@@ -4,7 +4,9 @@
   "description": "Check out who's checking you out.",
   "main": "lib/start.js",
   "scripts": {
-    "start": "node lib/start.js",
+    "server": "node lib/start.js",
+    "start": "npm run watch & npm run server", 
+    "watch": "webpack --progress --colors --watch --display-error-details",
     "test": "./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*test.js",
     "coverage": "istanbul cover ./node_modules/.bin/tape ./tests/*.js"
   },
