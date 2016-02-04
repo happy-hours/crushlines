@@ -1,7 +1,10 @@
+require('../assets/styles.js');
 var React = require('react');
 var ReactDOM = require('react-dom');
+var AppContainer = require('./components/app-container.jsx');
+
 
 ReactDOM.render(
-    <h1>Hi there</h1>,
-    document.getElementById('content')    
+    <AppContainer />,
+    document.getElementById('content')
 );
