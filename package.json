@@ -5,21 +5,21 @@
   "main": "lib/start.js",
   "scripts": {
     "server": "node lib/start.js",
-    "start": "npm run watch & npm run server", 
+    "start": "npm run watch & npm run server",
     "watch": "webpack --progress --colors --watch --display-error-details",
     "test": "./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*test.js",
     "coverage": "istanbul cover ./node_modules/.bin/tape ./tests/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/globetown/crushlines.git"
+    "url": "git+https://github.com/happy-hours/crushlines.git"
   },
   "author": "@heron2014 @minaorangina",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/globetown/crushlines/issues"
+    "url": "https://github.com/happy-hours/crushlines/issues"
   },
-  "homepage": "https://github.com/globetown/crushlines#readme",
+  "homepage": "https://github.com/happy-hours/crushlines#readme",
   "dependencies": {
     "babel-core": "^6.4.5",
     "babel-loader": "^6.2.1",
