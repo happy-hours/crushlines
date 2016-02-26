@@ -4,6 +4,7 @@
 * [Testing Hapi](#hapi)
 * [Setting up CodeCov](#codecov)
 * [Serving our index page](#index)
+* [Weird error with Material-UI components](#material-ui)
 
 ## <a name="travis"><a> Problem: **Setting up Travis**
 1. How to get our repo into Travis
@@ -56,3 +57,10 @@ before_install:
 
 #### After
 https://github.com/globetown/crushlines/blob/3e740a10478cddd8a0768094cf64635459ec5d7d/lib/home.js#L9
+
+
+## <a name="material-ui"><a> Problem: **Weird problem: `addComponentAsRefTo(...) in the dev tools`**
+
+### Solution
+* There's a problem if your npm version is below 3
+* Solution was posted as an [issue in material-ui repo](https://github.com/callemall/material-ui#3001)
