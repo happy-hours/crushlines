@@ -64,3 +64,19 @@ https://github.com/globetown/crushlines/blob/3e740a10478cddd8a0768094cf64635459e
 ### Solution
 * There's a problem if your npm version is below 3
 * Solution was posted as an [issue in material-ui repo](https://github.com/callemall/material-ui#3001)
+
+## <a name="react-router-link"><a> Problem: **Unable to pass down a url to React `<Link>`**
+
+```
+Failed propType: Required prop 'to' was not specified in Link.  CHeck the render method of Button
+```
+
+### Solution
+
+React Router 2.0 allows you to pass an object to the `to` attribute on a `Link` tag.  #32
+
+```html
+<Link to={{ pathname: this.props.url }}> 
+  // your react components in
+</Link>
+```
