@@ -8,7 +8,7 @@ var ButtonContainer = React.createClass({
     render: function () {
 
         return (
-            <div className="button-container">    
+            <div className="button-container row center">
                 <SimpleRaisedButton />
                 <SimpleRaisedButton />
                 <SimpleRaisedButton />
