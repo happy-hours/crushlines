@@ -28,13 +28,18 @@
     "hapi": "^12.1.0",
     "hoek": "^3.0.4",
     "inert": "^3.2.0",
+    "material-ui": "^0.14.4",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
+    "react-tap-event-plugin": "^0.2.2",
     "vision": "^4.0.1"
   },
   "devDependencies": {
     "css-loader": "^0.23.1",
     "istanbul": "^0.4.2",
+    "material-ui": "^0.14.4",
+    "react-slick": "^0.10.0",
+    "react-tap-event-plugin": "^0.2.2",
     "style-loader": "^0.13.0",
     "tape": "^4.4.0",
     "webpack": "^1.12.12"

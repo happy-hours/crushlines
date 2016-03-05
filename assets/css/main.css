@@ -1,3 +1,19 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .button {
     border: 1px solid green;
+}
+
+.slider1 {
+    background-color: red;
+}
+
+.slider2 {
+    background-color: blue;
+}
+
+.slider3 {
+    background-color: yellow;
 }
