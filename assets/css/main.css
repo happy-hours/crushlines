@@ -4,14 +4,16 @@ body {
 
 .slider-custom, .slider1, .slider2, .slider3 {
     height:100vh;
+    margin: 0;
 }
 
 button.slick-next.slick-arrow {
     display: none !important;
 }
 
-.button {
-    border: 1px solid green;
+.button-container {
+    position: fixed;
+    bottom: 2%;
 }
 
 .slider1 {
@@ -24,4 +26,8 @@ button.slick-next.slick-arrow {
 
 .slider3 {
     background-color: yellow;
+}
+
+.slick-dots {
+    bottom: 12%;
 }
