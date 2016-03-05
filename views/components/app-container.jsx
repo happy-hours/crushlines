@@ -7,7 +7,7 @@ var AppContainer = React.createClass({
     render: function () {
         return (
             <LandingContainer />
-        )
+        );
     }
 });
 

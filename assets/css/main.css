@@ -2,18 +2,32 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.button {
-    border: 1px solid green;
+.slider-custom, .slider1, .slider2, .slider3 {
+    height:100vh;
+    margin: 0;
+}
+
+button.slick-next.slick-arrow {
+    display: none !important;
+}
+
+.button-container {
+    position: fixed;
+    bottom: 2%;
 }
 
 .slider1 {
-    background-color: red;
+    background-color: #ee6e73
 }
 
 .slider2 {
-    background-color: blue;
+    background-color: #2bbbad;
 }
 
 .slider3 {
-    background-color: yellow;
+    background-color: #343477;
+}
+
+.slick-dots {
+    bottom: 12%;
 }
