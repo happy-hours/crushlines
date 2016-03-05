@@ -12,11 +12,12 @@ var LandingSlider = React.createClass({
             slidesToShow: 1,
             slidesToScroll: 1
         };
+
         return (
-            <Slider {...settings}>
-                <div className="slider1"><h3>1</h3></div>
-                <div className="slider2"><h3>2</h3></div>
-                <div className="slider3"><h3>3</h3></div>
+            <Slider className='slider-custom' {...settings}>
+                <div className="slider1 col s12"><h3>1</h3></div>
+                <div className="slider2 col s12"><h3>2</h3></div>
+                <div className="slider3 col s12"><h3>3</h3></div>
             </Slider>
         );
     }

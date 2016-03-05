@@ -2,12 +2,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.slider-custom, .slider1, .slider2, .slider3 {
+    height:100vh;
+}
+
 .button {
     border: 1px solid green;
 }
 
 .slider1 {
-    background-color: red;
+    background-color: red
 }
 
 .slider2 {
@@ -16,4 +20,6 @@ body {
 
 .slider3 {
     background-color: yellow;
+
+
 }
