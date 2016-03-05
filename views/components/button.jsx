@@ -1,19 +1,18 @@
-'use strict'
+'use strict';
 
 var React = require('react');
+var Link = require('react-router').Link;
+var SimpleRaisedButton = require('./material-button.jsx');
+
 
 var Button = React.createClass({
     render: function () {
-        console.log(this.props);
+
         return (
-            <div className="button">
-                <a href={this.props.href}>
-                    <p>
-                        <i className={this.props.icon}></i> {this.props.title}
-                    </p>
-                </a>
-            </div>
-        )
+            <Link to={{pathname: this.props.url}}>
+                <SimpleRaisedButton />
+            </Link>
+        );
     }
 });
 
