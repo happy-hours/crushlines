@@ -78,6 +78,6 @@ React Router 2.0 allows you to pass an object to the `to` attribute on a `Link` 
 
 ```html
 <Link to={{ pathname: this.props.url }}>
-  // your react components in
+  // your react components nested here
 </Link>
 ```
