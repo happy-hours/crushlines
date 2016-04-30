@@ -6,6 +6,7 @@
 * [Serving our index page](#index)
 * [Weird error with Material-UI components](#material-ui)
 * [Passing down a url prop to React Router `<Link>`](#react-router-link)
+* [Updating dependencies](#update-dependencies)
 
 ## <a name="travis"><a> Problem: **Setting up Travis**
 1. How to get our repo into Travis
@@ -81,3 +82,9 @@ React Router 2.0 allows you to pass an object to the `to` attribute on a `Link` 
   // your react components nested here
 </Link>
 ```
+
+## <a name="update-dependencies"><a> ProblemL **`package.json` wildly out of date**
+
+### Solution
+* Install [`npm-check-updates`](https://www.npmjs.com/package/npm-check-updates)
+* This package looks through your dependencies and updates whatever is out of date
