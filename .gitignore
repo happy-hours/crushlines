@@ -19,4 +19,4 @@ test/fixtures/monitor_log
 lcov.info
 .env
 *~
-assets/bundle.js
+public/bundle.js
