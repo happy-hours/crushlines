@@ -1,5 +1,11 @@
+const webpack = require("webpack");
+
 module.exports = {
-  entry: "./src/index.jsx",
+  entry: [
+    "./src/index.jsx",
+    "webpack/hot/dev-server",
+    "webpack-dev-server/client?http://localhost:8080/"
+  ],
   output: {
     path: __dirname,
     filename: "./public/bundle.js"
@@ -16,5 +22,8 @@ module.exports = {
         exclude: /node_modules/
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin()
+  ]
 };
