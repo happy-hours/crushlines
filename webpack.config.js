@@ -1,23 +1,20 @@
 module.exports = {
-    entry: "./views/app.js",
-    output: {
-        path: __dirname,
-        filename: "./assets/bundle.js"
-    },
-    module: {
-        loaders: [
-            {
-                test: /\.css$/,
-                loader: "style!css"
-            },
-            {
-                test: /\.jsx?$/,
-                loader: "babel",
-                exclude: /node_modules/,
-                query: {
-                    presets: ['react']
-                }
-            }
-        ]
-    }
+  entry: "./src/index.jsx",
+  output: {
+    path: __dirname,
+    filename: "./public/bundle.js"
+  },
+  module: {
+    loaders: [
+      {
+        test: /\.s?css$/,
+        loader: "style-loader!css-loader!sass-loader"
+      },
+      {
+        test: /\.jsx?$/,
+        loader: "babel",
+        exclude: /node_modules/
+      }
+    ]
+  }
 };
